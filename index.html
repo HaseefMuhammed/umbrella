@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png" type="image/logo">
+    <title>Engagment Invitation</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="card text-center">
+            <div class="card-header">
+                <h2 class="ttl">SHHH... YOU'RE INVITED</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">You are cordially invited to join the Umbrella Movement ☂️, a select group of
+                    individuals who prioritize staying dry and stylish no matter the weather 🌧️. Our secret mission is
+                    to ensure that you are always prepared for any storm that comes your way 🌦️. With an umbrella in
+                    hand, you can confidently face the elements, knowing you have a reliable and fashionable shield
+                    against the rain 🌂. Together, let's make every step a dry one. Welcome to the movement—where
+                    staying dry is our little secret! 🤫
+
+                </p>
+
+                <!-- <div class="row">
+                    <div class="col-md-6 col-6">
+                        <img class="img-fluid" src="images/MINU KOCHU DESIGN (1).png" alt="Img">
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <img class="img-fluid" src="images/Bava_rinu_Design-removebg-preview.png" alt="img">
+                        <div class="col-12 col-md-12">
+                           
+                        </div>
+                    </div>
+                </div> -->
+                <img class="img-fluid" src="images/letter.png" alt="letter">
+                <br>
+                <button type="button" class="btn btn-primary mt-5 btncl p-3" data-toggle="modal"
+                    data-target="#nameModal" onclick="music()">
+                    Open The Letter
+                </button>
+                <br>
+                <button class="btn btn-dark mt-3" onclick="stopMusic()">Stop Music</button>
+            </div>
+            <div class="card-footer text-muted svdate">
+                #Vote for umbrella!
+                <br>
+                <a href="https://www.webcraaft.42web.io/" target="_blank">Website made by WebCraft</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Name Modal -->
+    <div class="modal fade" id="nameModal" tabindex="-1" role="dialog" aria-labelledby="nameModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="nameModalLabel">Please Enter Your Name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="showWelcome()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Modal -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="welcomeModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body align-items-center" id="welcomeMessage">
+                    <!-- Welcome message will be displayed here -->
+                    <img class="img-fluid" src="images/Revision.png" alt="IMAGE">
+                    <!-- <p class="text-center mt-5 ask">For any doubt</p>
+                    <div class="row">
+                        <div class="col-md-6 col-6">
+                            <a href="tel:9947851223"><button class="text-center btn btn-warning">CONTACT US <i
+                                        class="fa-solid fa-phone"></i></button></a>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <a href="https://maps.app.goo.gl/RnQ3gWamXDKGfbx38" target="_blank"><button
+                                    class="text-center btn btn-warning">LOCATION <i
+                                        class="fa-solid fa-location-dot"></i></button></a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://kit.fontawesome.com/3945bc0b8d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
