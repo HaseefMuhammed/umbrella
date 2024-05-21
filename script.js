@@ -28,7 +28,7 @@ function music() {
 
     // Play looped music after the alert is closed
     setTimeout(function () {
-        audio = new Audio('images/vote.mp3'); // Replace with the path to your music file
+        audio = new Audio('images/clip.mp3'); // Replace with the path to your music file
         audio.loop = true; // Set the loop property to true
         audio.play(); // Start playing the music
     }, 100);
