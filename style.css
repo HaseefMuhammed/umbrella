@@ -26,3 +26,14 @@ body{
 .ttl{
     text-transform: uppercase;
 }
+.icon-new{
+    width: 2em;
+    color: white;
+    margin-left: 3px;
+}
+
+.icon-new2{
+    width: 1.5em;
+    color: white;
+    margin-left: 3px;
+}
