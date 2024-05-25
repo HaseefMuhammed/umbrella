@@ -1,38 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-body{
+body {
     background-image: url("images/bg.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-.btncl{
+
+.btncl {
     font-family: "Madimi One", sans-serif;
     font-weight: bolder;
     font-style: normal;
     font-size: 2em;
 }
-.svdate{
+
+.svdate {
     font-family: "Cedarville Cursive", cursive;
     font-weight: bolder;
     font-size: 2em;
     font-style: normal;
 }
-.ask{
+
+.ask {
     font-family: "Cedarville Cursive", cursive;
     font-weight: bolder;
     font-size: 1em;
     font-style: normal;
 }
-.ttl{
+
+.ttl {
     text-transform: uppercase;
 }
-.icon-new{
+
+.icon-new {
     width: 2em;
     color: white;
     margin-left: 3px;
 }
 
-.icon-new2{
+.icon-new2 {
     width: 1.5em;
     color: white;
     margin-left: 3px;
